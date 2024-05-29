@@ -99,7 +99,7 @@
 			fi
 				
 			#Launch and connect to CyberGhost VPN
-			sudo cyberghostvpn --connect --country-code "$COUNTRY" --"$PROTOCOL" "$ARGS"
+			sudo cyberghostvpn --connect --torrent --country-code "$COUNTRY" --"$PROTOCOL" "$ARGS"
 			
 			# Add CyberGhost nameserver to resolv for DNS
 			# Add Nameserver via env variable $NAMESERVER
